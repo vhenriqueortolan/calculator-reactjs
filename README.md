@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Calculator-ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto de uma calculadora simples, mas funcional, que usa ReactJS como tecnologia principal. O objetivo deste projeto é praticar a programação com essa tecnologia e aprender como criar componentes reutilizáveis e interativos.
 
-## Available Scripts
+## Indice
 
-In the project directory, you can run:
+- [Tecnologia usada](#tecnologia-usada)
+- [Instalação e execução](#instalação-e-execução)
+- [Uso](#uso)
+- [Estrutura do projeto](#estrutura-do-projeto)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
 
-### `npm start`
+## Tecnologia usada
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [ReactJS], uma biblioteca JavaScript para criar interfaces de usuário.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalação e execução
 
-### `npm test`
+Para instalar e executar este projeto localmente, você precisa ter o [Node.js] e o [npm] instalados na sua máquina.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Siga os passos abaixo:
 
-### `npm run build`
+1. Clone este repositório para a sua máquina usando o comando:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/vhenriqueortolan/calculator-reactjs.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Entre na pasta do projeto usando o comando:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+cd calculator-reactjs
+```
 
-### `npm run eject`
+3. Instale as dependências do projeto usando o comando:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Inicie o servidor de desenvolvimento usando o comando:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Abra o seu navegador e acesse o endereço:
 
-## Learn More
+```bash
+http://localhost:3000
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Uso
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Para usar a calculadora, você pode clicar nos botões na tela. A calculadora possui as seguintes funções:
 
-### Code Splitting
+- Os botões de **0** a **9** permitem digitar os números que você quer calcular.
+- O botão de **,** permite digitar números não inteiros, usando o ponto como separador decimal.
+- Os botões de **+**, **-**, **x** e **/** permitem escolher a operação matemática que você quer realizar, entre soma, subtração, multiplicação e divisão.
+- O botão de **=** permite obter o resultado da operação que você digitou.
+- O botão de **C** permite limpar a tela e começar uma nova operação.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Estrutura do projeto
 
-### Analyzing the Bundle Size
+Este projeto segue a estrutura padrão de uma aplicação React criada com o [Create React App]. Ele possui as seguintes pastas e arquivos principais:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **public**: Esta pasta contém os arquivos estáticos que são servidos pelo servidor web, como o arquivo index.html, o favicon, o manifest e o logo.
+- **src**: Esta pasta contém os arquivos de código fonte da aplicação, como os componentes React, os estilos, as imagens e os testes.
+  - **context**: Esta pasta contém o arquivo MathContext.js, que cria o contexto e o provider para a utilização da Context API do React. Este arquivo também contém todas as funções referentes às operações matemáticas e os hooks necessários para o funcionamento da tela do app e demais funcionalidades da aplicação.
+  - **App.css e index.css**: Arquivos de estilo CSS que definem a aparência dos componentes React.
+  - **index.js**: Este é o arquivo de entrada da aplicação, que renderiza o componente App no elemento root do index.html e fornece o provider do contexto para usar em App.
+  - **App.js**: Este é o único componente da aplicação.
 
-### Making a Progressive Web App
+## Contribuição
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Este projeto é de código aberto e está disponível no [GitHub]. Você pode enviar as suas sugestões, correções ou melhorias através de [issues] ou [pull requests].
 
-### Advanced Configuration
+Algumas melhorias possíveis para este projeto são:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Implementar mais operações comuns em calculadoras, como raiz quadrada, potência, logaritmo, etc.
+- Corrigir a exibição em determinados dispositivos, como o Safari para mobile, que pode apresentar problemas de responsividade ou alinhamento.
+- Reconhecer os dígitos do teclado do dispositivo, além dos cliques nos botões da aplicação.
+- Refatorar o código, separando melhor as responsabilidades em arquivos diferentes, para uma melhor leitura do código e manutenção. Por exemplo, extrair as funções e os hooks do arquivo MathContext.js para arquivos separados.
 
-### Deployment
+## Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está licenciado sob a [MIT License], que permite o uso, a cópia, a modificação e a distribuição do código, desde que os direitos autorais e as permissões sejam mantidos.
