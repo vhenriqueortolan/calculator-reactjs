@@ -13,7 +13,7 @@ Este é um projeto de uma calculadora simples, mas funcional, que usa ReactJS co
 
 ## Tecnologia usada
 
-- [ReactJS], uma biblioteca JavaScript para criar interfaces de usuário.
+- [ReactJS](https://react.dev/), uma biblioteca JavaScript para criar interfaces de usuário.
 
 ## Instalação e execução
 
@@ -74,7 +74,7 @@ Este projeto segue a estrutura padrão de uma aplicação React criada com o [Cr
 
 ## Contribuição
 
-Este projeto é de código aberto e está disponível no [GitHub]. Você pode enviar as suas sugestões, correções ou melhorias através de [issues] ou [pull requests].
+Este projeto é de código aberto e está disponível no [GitHub]. Você pode enviar as suas sugestões, correções ou melhorias através de [issues](/issues) ou [pull requests](/pulls).
 
 Algumas melhorias possíveis para este projeto são:
 
