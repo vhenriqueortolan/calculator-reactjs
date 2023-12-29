@@ -85,4 +85,4 @@ Algumas melhorias possíveis para este projeto são:
 
 ## Licença
 
-Este projeto está licenciado sob a [MIT License], que permite o uso, a cópia, a modificação e a distribuição do código, desde que os direitos autorais e as permissões sejam mantidos.
+Este projeto está licenciado sob a [MIT License](/LICENSE), que permite o uso, a cópia, a modificação e a distribuição do código, desde que os direitos autorais e as permissões sejam mantidos.
