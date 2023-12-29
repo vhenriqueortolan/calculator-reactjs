@@ -74,7 +74,7 @@ Este projeto segue a estrutura padrão de uma aplicação React criada com o [Cr
 
 ## Contribuição
 
-Este projeto é de código aberto e está disponível no [GitHub]. Você pode enviar as suas sugestões, correções ou melhorias através de [issues](/issues) ou [pull requests](/pulls).
+Este projeto é de código aberto e está disponível no [GitHub]. Você pode enviar as suas sugestões, correções ou melhorias através de [issues](https://github.com/vhenriqueortolan/calculator-reactjs/issues) ou [pull requests](https://github.com/vhenriqueortolan/calculator-reactjs/pulls).
 
 Algumas melhorias possíveis para este projeto são:
 
